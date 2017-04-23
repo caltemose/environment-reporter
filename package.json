@@ -1,0 +1,30 @@
+{
+  "name": "environment-reporter",
+  "version": "0.0.1",
+  "description": "Code for a Tessel microcomputer with connected climate and ambience modules to report environmental conditions.",
+  "main": "index.js",
+  "scripts": {
+    "start": "t2 run index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caltemose/environment-reporter.git"
+  },
+  "keywords": [
+    "tessel",
+    "iot",
+    "climate",
+    "weather"
+  ],
+  "author": "Chad L. Altemose",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caltemose/environment-reporter/issues"
+  },
+  "homepage": "https://github.com/caltemose/environment-reporter#readme",
+  "dependencies": {
+    "ambient-attx4": "^0.2.11",
+    "climate-si7005": "^0.1.5",
+    "firebase-admin": "^4.2.1"
+  }
+}
