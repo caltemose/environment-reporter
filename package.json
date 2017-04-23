@@ -1,6 +1,6 @@
 {
   "name": "environment-reporter",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Code for a Tessel microcomputer with connected climate and ambience modules to report environmental conditions.",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,7 @@
   "dependencies": {
     "ambient-attx4": "^0.2.11",
     "climate-si7005": "^0.1.5",
-    "firebase-admin": "^4.2.1"
+    "firebase-admin": "^4.2.1",
+    "moment": "^2.18.1"
   }
 }
